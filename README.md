@@ -27,4 +27,32 @@ dans ce tutoriel on va travailler avec docker compose:
 ![image](https://github.com/user-attachments/assets/27ef74b8-af13-45eb-8088-677535846600)
 ![image](https://github.com/user-attachments/assets/5cf20410-c7ab-4729-bb9b-d081a689ad4b)
 
+![image](https://github.com/user-attachments/assets/8a74871a-f33b-4797-9eb1-2aea0a844184)
+
+coonect with http://localhost:8084
+to check identity module
+![image](https://github.com/user-attachments/assets/fece97db-2469-4f0e-8422-c80d27911a8f)
+login with demo/demo
+![image](https://github.com/user-attachments/assets/06e893d8-49a0-44cf-96a1-d18907c5bca5)
+
+
+tasklist module:
+http://localhost:8082/tasklist
+![image](https://github.com/user-attachments/assets/d9e2f6a6-f904-4497-b2a0-6cd5bdea2fd7)
+
+operate module:
+http://localhost:8081/operate
+![image](https://github.com/user-attachments/assets/318bf6a7-a3fc-403d-8264-bae8ed32a8cc)
+
+on va deployer notre premier fichier bpmn:
+![image](https://github.com/user-attachments/assets/7eec5d5b-0fed-4e45-8719-d6ec6a5982b8)
+![image](https://github.com/user-attachments/assets/6559257b-3355-4ce1-b9ae-4c8bee7b3c26)
+
+si on pointe sur le operate on va voir qu'il ya un process ajouté:
+![image](https://github.com/user-attachments/assets/c50d9a77-b4b9-4aaf-b744-ae322fb3a706)
+
+si on pointe sur le tasklist :
+on starter le process depuis tasklist:
+![image](https://github.com/user-attachments/assets/319c1792-5823-4d98-a455-320b39a751d9)
+
 
