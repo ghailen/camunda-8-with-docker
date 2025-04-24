@@ -57,3 +57,16 @@ on starter le process depuis tasklist:
 
 
 ![image](https://github.com/user-attachments/assets/34c206d9-9e67-4153-afa7-c8810c73dd16)
+
+
+Let s start with the design part:
+![image](https://github.com/user-attachments/assets/f9dfea7e-cf8f-40a2-989b-7c2c9b2182ae)
+as we can see here the is a type named calculateScore 
+the type is how the engine and a connected client communicate as to when and what work gets executed .once a live process instance reaches this step in the engine , the engine will signal to the client 
+that there is work to be done with the job type of calculate score and the client will execute any Zeebe job workers with the specified job type.
+![image](https://github.com/user-attachments/assets/1abc0829-dc49-4596-9acd-c8fea3be2052)
+
+![image](https://github.com/user-attachments/assets/eed83bf2-6c2d-4f9d-a15a-61f42c5234d5)
+
+![image](https://github.com/user-attachments/assets/5f1ee975-4b15-44d8-a2b7-3593a81ab739)
+
